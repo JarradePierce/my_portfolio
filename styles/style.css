@@ -104,21 +104,35 @@
   text-align: center;
   text-decoration: underline;
   font-size: 40px;
+  color: #fff;
   font-family: 'Dancing Script', cursive;
 }
 .website-img{
   width: 400px;
   height: 350px;
 }
+.projects-container{
+  background-color: #333;
+}
 .apps-title{
   text-align: center;
   text-decoration: underline;
   font-size: 40px;
+  color: #fff;
   font-family: 'Dancing Script', cursive;
 }
 .card-title{
   font-family: 'Dancing Script', cursive;
   font-size: 40px;
+}
+.card-img-top{
+  border: 4px solid #333;
+}
+.card{
+  text-align: center;
+}
+.up-too-list{
+  text-align: center;
 }
 .what-im-up-too-title{
   text-align: center;
