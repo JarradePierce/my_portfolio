@@ -1,6 +1,92 @@
-.jumbotron{
-	background-color: #000;
+.homepage-jumbo{
+  height: 500px;
+  width: 100%;
+  background-color: rgba(000, 000, 00, .5);
 	color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+.email-text{
+  font-family: 'Asap Condensed', sans-serif;
+}
+.main-menu{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+.about-me-row{
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.about-me-header{
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: 'Dancing Script', cursive;
+}
+.overlay{
+  background-image: url("../images/homepage-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.ruby-section-container{
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/ruby-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.rails-card{
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 10%;
+  color: #fff;
+}
+.ruby-title{
+  margin-top: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: 'Dancing Script', cursive;
+}
+.js-card{
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 10%;
+  color: #fff;
+}
+.js-title{
+  margin-top: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: 'Dancing Script', cursive;
+}
+.skills-section-overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(000, 000, 00, .6);
+}
+.js-section-container{
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/javascript2-image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.card-text{
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 20px;
 }
 .lead{
 	color: #fff;
@@ -9,8 +95,69 @@
 	color: #fff;
 }
 .nav a{
-	color: green;
+	color: #fff;
+}
+.nav a:hover{
+  color: #000;
+}
+.websites-title{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+.website-img{
+  width: 400px;
+  height: 350px;
+}
+.projects-container{
+  background-color: #333;
+}
+.apps-title{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+.card-title{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+.card-img-top{
+  border: 4px solid #333;
+}
+.card{
+  text-align: center;
+}
+.up-too-list{
+  text-align: center;
+}
+.what-im-up-too-title{
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family: 'Dancing Script', cursive;
+}
+.up-too-item{
+  font-family: 'Asap Condensed', sans-serif;
+}
+.up-too-item-title{
+  font-family: 'Dancing Script', cursive;
 }
 button a{
  color: #fff;
+}
+
+@media screen and (max-width: 900px) and (min-width: 100px){
+  .about-me-row{
+    width: 100%;
+  }
+  .ruby-section-container{
+    height: 350px;
+  }
+  .js-section-container{
+    height: 350px;
+  }
 }
