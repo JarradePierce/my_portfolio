@@ -124,6 +124,7 @@
 .card-title{
   font-family: 'Dancing Script', cursive;
   font-size: 40px;
+  text-decoration: underline;
 }
 .card-img-top{
   border: 4px solid #333;
@@ -145,6 +146,15 @@
 }
 .up-too-item-title{
   font-family: 'Dancing Script', cursive;
+}
+.project-button{
+  background-color: #fff;
+  border: 2px solid green;
+  color: green;
+}
+.project-button:hover{
+  color: #fff;
+  background-color: green;
 }
 button a{
  color: #fff;
