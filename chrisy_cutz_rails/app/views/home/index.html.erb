@@ -1,0 +1,134 @@
+<div id='jumbo-intro-container'>  
+  <div class='jumbo-intro-overlay'>
+    <h1 class='home-intro-header'>Welcome</h1>
+    <p class='home-intro-text'><strong>to ChristinaCuts</strong></h2>
+  </div>
+</div>
+
+<div class='container-fluid'>
+  <div class='book-now-container'>
+    <div class='row'>
+      <div class='col-sm book-now-col'>
+        <div class='card card1'>
+          <div class='card-body'>
+          
+          </div>
+        </div>
+      </div>
+      <div class='col-sm book-now-col'>
+        <div class='card card2'>
+          <div class='card-body'>
+            <h4 class='card-text card-text-header'>Highlights</h4>
+            <p class='card-text'>Contact us</p>
+          </div>
+        </div>
+      </div>
+      <div class='col-sm book-now-col'>
+        <div class='card card3'>
+          <div class='card-body'>
+          
+          </div>
+        </div>
+      </div>
+      <div class='col-sm book-now-col'>
+        <div class='card card4'>
+          <div class='card-body'>
+            <h4 class='card-text card-text-header'>Color</h4>
+            <p class='card-text'>Contact us</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-sm book-now-col'>
+        <div class='card card5'>
+          <div class='card-body'>
+            <h4 class='card-text card-text-header'>Haircut / Color</h4>
+            <p class='card-text'>Contact us</p>
+          </div>
+        </div>
+      </div>
+      <div class='col-sm book-now-col'>
+        <div class='card card6'>
+          <div class='card-body'>
+            
+          </div>
+        </div>
+      </div>
+      <div class='col-sm book-now-col'>
+        <div class='card card7'>
+          <div class='card-body'>
+            <h4 class='card-text card-text-header'>Haircut</h4>
+            <p class='card-text'>Contact us</p>
+          </div>
+        </div>
+      </div>
+      <div class='col-sm book-now-col'>
+        <div class='card card8'>
+          <div class='card-body'>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class='jumbotron price-container'>
+    <div class='price-list-container'>
+      <ul class="list-group price-item-group">
+        <li class="list-group-item price-item"> <h2 class='page-header'> October Specials </h2></li>
+        <li class="list-group-item price-item">Hair cut <p class='price-amount'>$35 </p></li>
+        <li class="list-group-item price-item">Trim <p class='price-amount'>$20 </p></li>
+        <li class="list-group-item price-item">Highlights <p class='price-amount'>$45</p></li>
+        <li class="list-group-item price-item">Hair styling <p class='price-amount'>$25</p></li>
+      </ul>
+    </div>
+  </div>
+
+<div class='container testimonials-container'>
+  <h2 class='page-header testimonials-header'>
+    Testimonials
+  </h2>
+  <div class='row'>
+    <div class='col-lg testimonial-col'>
+      <div class='card testimonial-card'>
+        <blockquote><h3 class='card-title'> persons name </h3>
+        <p class='card-text'> Testimonial text quick couple sentiences about the work they had done </p></blockquote>
+      </div>
+    </div>
+    <div class='col-lg testimonial-col'>
+      <div class='card testimonial-card'>
+        <blockquote><h3 class='card-title'> persons name </h3>
+        <p class='card-text'> Testimonial text quick couple sentiences about the work they had done </p></blockquote>
+      </div>
+    </div>
+    <div class='col-lg testimonial-col'>
+      <div class='card testimonial-card'>
+        <blockquote><h3 class='card-title'> persons name </h3>
+        <p class='card-text'> Testimonial text quick couple sentiences about the work they had done </p></blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='jumbotron contact-container'>
+  <div class='form-container'>
+    <div class='form-group'></div>
+      <h2 class='page-header'> Visit us </h2>
+      <p class='page-header-text'>301 Hartz Ave # 101, Danville, CA 94526</p>
+      <%= form_tag('https://christinacuts.herokuapp.com/api/messages', method: 'post') %>
+        <%= text_field_tag :name, nil, placeholder: "Name", class: "form-control message-note-input" %>
+        <%= text_field_tag :email, nil, placeholder: "Email", class: "form-control message-note-input"%>
+        <%= text_field_tag :phone, nil, placeholder: "Phone", class: "form-control message-note-input" %>
+        <%= text_area_tag :note, nil, placeholder: "Message", class: "form-control note-field" %>
+        <%= submit_tag "Submit Message", class: 'btn  message-btn'%>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
