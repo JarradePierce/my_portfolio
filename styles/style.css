@@ -1,5 +1,5 @@
 body{
-    font-family: 'Asap Condensed', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 .homepage-jumbo{
   height: 500px;
@@ -26,6 +26,12 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+.display-2{
+  line-height: 0.5em;
+}
+.email-text{
+  line-height: 0.5em;
 }
 .ruby-section-container{
   height: 500px;
@@ -78,9 +84,6 @@ body{
   background-position: center;
   background-size: cover;
 }
-.card-text{
-  font-size: 20px;
-}
 .lead{
 	color: #fff;
 }
@@ -103,9 +106,6 @@ body{
   width: 400px;
   height: 350px;
 }
-.projects-container{
-  background-color: #333;
-}
 .apps-title{
   text-align: center;
   text-decoration: underline;
@@ -121,6 +121,12 @@ body{
 }
 .card{
   text-align: center;
+  height: 42em;
+  color: #000;
+}
+.card-text{
+  line-height: 1em;
+  font-size: 20px;
 }
 .up-too-list{
   text-align: center;
@@ -129,11 +135,13 @@ body{
   width: 60%;
   margin: 0 auto;
 }
-
 .what-im-up-too-title{
   text-align: center;
   font-size: 40px;
   text-decoration: underline;
+}
+.websites-title{
+  color: #000;
 }
 .project-button{
   background-color: #fff;
