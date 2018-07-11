@@ -1,28 +1,20 @@
+body{
+    font-family: 'Merriweather', serif;
+}
 .homepage-jumbo{
-  height: 500px;
+  height: 350px;
   width: 100%;
   background-color: rgba(000, 000, 00, .5);
 	color: #fff;
-  font-family: 'Dancing Script', cursive;
-}
-.email-text{
-  font-family: 'Asap Condensed', sans-serif;
 }
 .main-menu{
-  font-family: 'Dancing Script', cursive;
   font-size: 20px;
 }
 .about-me-row{
-  font-family: 'Asap Condensed', sans-serif;
   font-size: 20px;
-  text-align: center;
-  width: 50%;
+  text-align: left;
+  width: 40%;
   margin: 0 auto;
-}
-.about-me-header{
-  font-size: 30px;
-  text-decoration: underline;
-  font-family: 'Dancing Script', cursive;
 }
 .overlay{
   background-image: url("../images/homepage-background.jpg");
@@ -30,6 +22,15 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+.display-2 h1{
+  line-height: 0.5em;
+}
+.email-text{
+  line-height: 1.4em;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
 }
 .ruby-section-container{
   height: 500px;
@@ -53,7 +54,6 @@
   margin-top: 20px;
   font-size: 30px;
   text-decoration: underline;
-  font-family: 'Dancing Script', cursive;
 }
 .js-card{
   width: 400px;
@@ -66,7 +66,6 @@
   margin-top: 20px;
   font-size: 30px;
   text-decoration: underline;
-  font-family: 'Dancing Script', cursive;
 }
 .skills-section-overlay{
   height: 100%;
@@ -84,12 +83,8 @@
   background-position: center;
   background-size: cover;
 }
-.card-text{
-  font-family: 'Asap Condensed', sans-serif;
-  font-size: 20px;
-}
 .lead{
-	color: #fff;
+	color: #000;
 }
 .navbar{
 	color: #fff;
@@ -105,25 +100,19 @@
   text-decoration: underline;
   font-size: 40px;
   color: #fff;
-  font-family: 'Dancing Script', cursive;
 }
 .website-img{
   width: 400px;
   height: 350px;
-}
-.projects-container{
-  background-color: #333;
 }
 .apps-title{
   text-align: center;
   text-decoration: underline;
   font-size: 40px;
   color: #fff;
-  font-family: 'Dancing Script', cursive;
 }
 .card-title{
-  font-family: 'Dancing Script', cursive;
-  font-size: 40px;
+  font-size: 20px;
   text-decoration: underline;
 }
 .card-img-top{
@@ -131,21 +120,28 @@
 }
 .card{
   text-align: center;
+  height: 40em;
+  width: 40em;
+  color: #000;
+}
+.card-text{
+  line-height: 1em;
+  font-size: 20px;
 }
 .up-too-list{
   text-align: center;
+}
+.up-too-list p{
+  width: 60%;
+  margin: 0 auto;
 }
 .what-im-up-too-title{
   text-align: center;
   font-size: 40px;
   text-decoration: underline;
-  font-family: 'Dancing Script', cursive;
 }
-.up-too-item{
-  font-family: 'Asap Condensed', sans-serif;
-}
-.up-too-item-title{
-  font-family: 'Dancing Script', cursive;
+.websites-title{
+  color: #000;
 }
 .project-button{
   background-color: #fff;
