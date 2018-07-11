@@ -2,7 +2,7 @@ body{
     font-family: 'Merriweather', serif;
 }
 .homepage-jumbo{
-  height: 500px;
+  height: 350px;
   width: 100%;
   background-color: rgba(000, 000, 00, .5);
 	color: #fff;
@@ -12,13 +12,9 @@ body{
 }
 .about-me-row{
   font-size: 20px;
-  text-align: center;
-  width: 50%;
+  text-align: left;
+  width: 40%;
   margin: 0 auto;
-}
-.about-me-header{
-  font-size: 30px;
-  text-decoration: underline;
 }
 .overlay{
   background-image: url("../images/homepage-background.jpg");
@@ -27,11 +23,14 @@ body{
   background-position: center;
   background-size: cover;
 }
-.display-2{
+.display-2 h1{
   line-height: 0.5em;
 }
 .email-text{
-  line-height: 0.5em;
+  line-height: 1.4em;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
 }
 .ruby-section-container{
   height: 500px;
@@ -85,7 +84,7 @@ body{
   background-size: cover;
 }
 .lead{
-	color: #fff;
+	color: #000;
 }
 .navbar{
 	color: #fff;
@@ -113,7 +112,7 @@ body{
   color: #fff;
 }
 .card-title{
-  font-size: 40px;
+  font-size: 20px;
   text-decoration: underline;
 }
 .card-img-top{
@@ -121,7 +120,8 @@ body{
 }
 .card{
   text-align: center;
-  height: 42em;
+  height: 40em;
+  width: 40em;
   color: #000;
 }
 .card-text{
